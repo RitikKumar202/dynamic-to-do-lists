@@ -1,0 +1,118 @@
+/*======== App.js css =========*/
+.main {
+  margin: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card {
+  background: #d6dbdfc3;
+  height: 400px;
+  width: 300px;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* ======== PendingTasks.js css ======== */
+form {
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+}
+
+input {
+  width: 220px;
+  padding: 3px 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  width: 220px !important;
+  padding: 3px 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: #2edac6;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ======== Task.js css ======== */
+.task-details {
+  margin-top: 12px;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.inProgress-btn {
+  background: #ffc65b;
+}
+
+/* ======== CompletedTasks.js css ======== */
+.completed-task-details {
+  margin-top: 12px;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
